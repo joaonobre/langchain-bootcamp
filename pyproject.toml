@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "langchain-bootcamp"
+version = "0.1.0"
+description = ""
+authors = ["Joao Nobre <joaonoobre@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.29.2"
+langchain = "^0.1.6"
+openai = "^1.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
